@@ -12,5 +12,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "IronYard assignment",
+  "main": "index.js",
+  "repository": "git@github.com:JordQuinn/marsrover.git",
+  "author": "Your Name <jordanmichelequinn@gmail.com>",
+  "license": "MIT"
 }

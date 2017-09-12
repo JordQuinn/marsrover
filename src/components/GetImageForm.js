@@ -32,7 +32,8 @@ class GetImageForm extends Component {
   }
   fetchRoverImage = (e) => {
     e.preventDefault()
-    let imageUrl = `https://api.nasa.gov/mars-photos/api/v1/rovers/${this.state.rover}/photos?sol=${this.state.sol}&camera=${this.state.camera}&api_key=${api_key}`;
+    let imageUrl = `https://api.nasa.gov/mars-photos/api/v1/rovers/
+    ${this.state.rover}/photos?sol=${this.state.sol}&camera=${this.state.camera}&api_key=${api_key}`;
     fetch(imageUrl)
     .then(response => {
         return response.json()
